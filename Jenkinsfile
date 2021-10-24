@@ -50,6 +50,11 @@ pipeline {
          }
         }
       }
+       stage('Clear WS') {
+     steps{  
+         clearWs()
+        }
+      }
     }
 }
 
